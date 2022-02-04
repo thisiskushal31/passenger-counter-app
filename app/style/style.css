@@ -1,0 +1,8 @@
+*, ::after ::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/images/konstantin-pudan-kj3ZJqz_FsI-unsplash.jpg) no-repeat center top;
+}
