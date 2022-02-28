@@ -1,7 +1,8 @@
 body{
 	margin:0;
+	color:#6a6f8c;
 	background: #c8c8c8;
-	font:600 16px/18px 'Open Sans',sans-serif;
+	font:600 16px 'Fredoka', sans-serif;
 	text-align: center;
 }
 
@@ -10,6 +11,8 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ------ Card Style ------- */
 
 .dialog-box-wrap{
 	background: url(/images/bg.jpg);
@@ -22,13 +25,17 @@ body{
 	box-shadow:0 25px 55px 0 rgba(0,0,0,.21),0 16px 28px 0 rgba(0,0,0,.22);
 }
 
+/* ------ Forms Styles ------- */
+
 .header{
 	width:100%;
 	height:100%;
 	padding: 1rem;
-	/* position: absolute; */
+	position: absolute;
 	background:rgba(40,57,101,.9);
 }
+
+/* ------ Logo Style ------- */
 
 .header .img{
 	display: block;
@@ -37,7 +44,63 @@ body{
 	align-items: center;
 }
 
-.output-wrap h1{
-	color: #0000;
+/* ------ Output Style ------- */
+
+.output-wrap {
 	padding: 5rem;
+}
+
+.tab {
+	color: #a1a1a1;
+	font-size: 24px;
+	padding: 50px;
+}
+
+.input{
+	border: none;
+	margin: 3rem;
+	padding: 20px 0px;
+	border-radius: 25px;
+	background: rgba(255,255,255,.1);
+	text-align: center;
+	font: 600 25px 'Open-sans', sans-serif
+}
+
+/* ------ Button Style ------- */
+
+.button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	margin: 1rem auto;
+	font:600 25px 'Fredoka', sans-serif;
+	color:#fff;
+	display:block;
+	background:#1161ee;
+	cursor: pointer;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+  
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+  
+.button:hover span {
+	padding-right: 25px;
+}
+  
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
 }
