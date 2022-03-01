@@ -67,7 +67,6 @@ body{
 }
 
 /* ------ Button Style ------- */
-
 .button{
 	border:none;
 	padding:15px 20px;
@@ -75,7 +74,6 @@ body{
 	margin: 1rem auto;
 	font:600 25px 'Oswald' , sans-serif;
 	color:#fff;
-	display:block;
 	background:#1161ee;
 	cursor: pointer;
 }
