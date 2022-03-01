@@ -12,17 +12,23 @@
     <!-- Google Font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <div class="dialog-box-wrap">
         <div class="header">
             <img src="/images/logo.png" alt="image">
             <div class="output-warp">
-                <label class="tab">PASSENGERS</label>
-                <input id="number" type="number" class="input">
+                <div class="grid">
+                    <label class="tab">Passenger</label>
+                    <p class="input" id="count-el"> 0 </p>
+                    <label class="tab">Previous entries</label>
+                    <p id="save-el" class="input">N/A</p>
+                </div>
+
             </div>
-            <button class="button"><span>Count</span></button>
+            <button class="button" id="increment-btn" onclick="increment()"><span>Count</span></button>
+            <button class="button" id="save-btn" onclick="save()"><span>Save</span></button>
         </div>
     </div>
 </body>
