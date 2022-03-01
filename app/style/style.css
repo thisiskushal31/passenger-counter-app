@@ -58,9 +58,9 @@ body{
 
 .input{
 	border: none;
-	/* margin: 3rem; */
 	padding: 3px 0px;
 	border-radius: 25px;
+	color: #a1a1a1;
 	background: rgba(255,255,255,.1);
 	text-align: center;
 	font: 600 25px 'Oswald', sans-serif ;

@@ -8,7 +8,8 @@ function increment() {
 }
 
 function save() {
-    let countStr = count + " - "
+    document.getElementById("save-el").innerHTML=" "
+    let countStr = count
     saveEl.textContent += countStr
     countEl.textContent = 0
     count = 0
