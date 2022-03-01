@@ -15,7 +15,7 @@ body{
 /* ------ Card Style ------- */
 
 .dialog-box-wrap{
-	background: url(/images/bg.jpg);
+	background: url(https://github.com/thisiskushal31/passenger-counter-app/blob/main/images/bg.jpg?raw=true);
 	width:500px;
 	overflow:hidden;
 	margin:5% auto 0;
