@@ -1,5 +1,5 @@
 # Passenger Counter Application
-This app enables user to keep tack of the passenger boarding the subway or anyother public transport.    
+This app enables user to keep track of the passenger boarding the subway or anyother public transport.    
 
 # Getting Started
 These instructions should get you a copy of the project up and running on your local machine for development and testing purposes.
